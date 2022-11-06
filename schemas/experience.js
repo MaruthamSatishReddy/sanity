@@ -47,5 +47,10 @@ export default {
       type: 'array',
       of: [{ type: 'string' }],
     },
+    {
+      name: 'client',
+      title: 'Client',
+      type: 'string',
+    },
   ],
 };
